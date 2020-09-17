@@ -8,7 +8,7 @@ namespace UnitTestAppUserFakeRepository
     public class Login
     {
         [TestMethod]
-        public void LoginWithCorrectCredentialsSuccessful()
+        /*public void LoginWithCorrectCredentialsSuccessful()
         {
             //arrange
             const string username = "AndyStange17";
@@ -20,6 +20,20 @@ namespace UnitTestAppUserFakeRepository
 
             //assert
             
+        }*/
+        public void LoginWithIncorrectCredentialsFail()
+        {
+            //arrange
+            const string UserName = "AaronRodgers12";
+            const string Password = "greenandgold";
+            FakeAppUserRepository FakeUser = new FakeAppUserRepository();
+
+            //act
+
+            Boolean Auth = FakeUser.Login(UserName, Password);
+
+            //assert
+            Assert.IsFalse(Auth);
         }
     }
 }

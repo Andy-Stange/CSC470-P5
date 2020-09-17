@@ -36,13 +36,13 @@ namespace P3Code
                     isAuthenticated = false
                 });
 
-                AppUsers.Add("Michael23Jordan", new AppUser
+                AppUsers.Add("KyleGosh", new AppUser
                 {
-                    UserName = "Michael23Jordan",
-                    Password = "@GoAt23!",
-                    FirstName = "Michael",
-                    LastName = "Jordan",
-                    EmailAddress = "Mike.Jordan@fakemail.com",
+                    UserName = "Gosh017",
+                    Password = "12345678",
+                    FirstName = "Kyle",
+                    LastName = "Gosh",
+                    EmailAddress = "kyle.gosh@trojans.dsu.com",
                     isAuthenticated = false
                 });
                 //Add a couple more
