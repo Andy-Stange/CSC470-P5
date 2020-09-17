@@ -45,12 +45,23 @@ namespace P3Code
                     EmailAddress = "kyle.gosh@trojans.dsu.com",
                     isAuthenticated = false
                 });
+
+                AppUsers.Add("JohnnyCash", new AppUser
+                {
+                    UserName = "JCash100",
+                    Password = "Password1!",
+                    FirstName = "Johnny",
+                    LastName = "Cash",
+                    EmailAddress = "Cashster24x7@gmail.com",
+                    isAuthenticated = false
+                });
                 //Add a couple more
             }
         }
 
         public bool Login(string UserName, string Password)
         {
+
             AppUser NewUser = new AppUser();
             NewUser = GetbyUserName(UserName);
 

@@ -15,7 +15,6 @@ namespace UnitTestAppUserFakeRepository
             const string UserName = "AaronRodgers12";
             const string Password = "greenandgold";
             FakeAppUserRepository FakeUser = new FakeAppUserRepository();
-
             //act
 
             Boolean Auth = FakeUser.Login(UserName, Password);
