@@ -16,3 +16,11 @@ C:\Users\DSU\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.csproj.GenerateResou
 C:\Users\DSU\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.csproj.CoreCompileInputs.cache
 C:\Users\DSU\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.exe
 C:\Users\DSU\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.pdb
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\bin\Debug\P3Code.exe
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\bin\Debug\P3Code.pdb
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.csproj.GenerateResource.cache
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.exe
+C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.pdb
