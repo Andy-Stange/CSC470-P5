@@ -101,5 +101,9 @@ namespace P3Code
             }
             return NewUser;
         }
+        static void Main()
+        {
+
+        }
     }
 }

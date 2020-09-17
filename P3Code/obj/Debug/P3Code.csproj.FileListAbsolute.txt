@@ -1,0 +1,9 @@
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\obj\Debug\P3Code.csprojAssemblyReference.cache
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\obj\Debug\P3Code.csproj.GenerateResource.cache
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\obj\Debug\P3Code.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\bin\Debug\P3Code.exe
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\bin\Debug\P3Code.pdb
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\obj\Debug\P3Code.exe
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P3\P3Code\obj\Debug\P3Code.pdb
