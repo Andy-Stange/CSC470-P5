@@ -5,22 +5,10 @@ using P3Code;
 namespace UnitTestAppUserFakeRepository
 {
     [TestClass]
-    public class Login
+    public class LoginFail
     {
         [TestMethod]
-        /*public void LoginWithCorrectCredentialsSuccessful()
-        {
-            //arrange
-            const string username = "AndyStange17";
-            const string password = "AS0717@!";
-
-            FakeAppUserRepository FakeUser = new FakeAppUserRepository();
-            //act
-            
-
-            //assert
-            
-        }*/
+        
         public void LoginWithIncorrectCredentialsFail()
         {
             //arrange
