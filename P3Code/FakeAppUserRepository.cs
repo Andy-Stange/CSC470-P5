@@ -26,6 +26,16 @@ namespace P3Code
                     isAuthenticated = false
                 });
 
+                AppUsers.Add("MichaelMoore", new AppUser
+                {
+                    UserName = "bdog422",
+                    Password = "Player42",
+                    FirstName = "Michael",
+                    LastName = "Moore",
+                    EmailAddress = "michael.moore@trojans.dsu.edu",
+                    isAuthenticated = false
+                });
+
                 AppUsers.Add("Michael23Jordan", new AppUser
                 {
                     UserName = "Michael23Jordan",
