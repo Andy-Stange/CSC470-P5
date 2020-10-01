@@ -19,12 +19,12 @@ namespace P4Code
             CenterToScreen();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn_login_Click(object sender, EventArgs e)
+        private void Btn_login_Click(object sender, EventArgs e)
         {
             string Username;
             string pass;
@@ -61,7 +61,7 @@ namespace P4Code
 
         }
 
-        private void btn_cancel_Click(object sender, EventArgs e)
+        private void Btn_cancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
