@@ -37,10 +37,13 @@ namespace P4Code
             auth = repository.Login(Username, pass);
             if (auth)
             {
+                
                 repository.SetAuthenticated(Username, auth);
                 user = repository.GetbyUserName(Username);
                 UserSuccessfullyAuthenticated = true;
                 Close();
+               
+                
             }
             else
             {

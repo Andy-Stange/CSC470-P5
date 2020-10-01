@@ -19,27 +19,27 @@ namespace P4Code
                     FirstName = "Andrew",
                     LastName = "Stange",
                     EmailAddress = "andrew.stange@trojans.dsu.edu",
-                    isAuthenticated = false
+                    isAuthenticated = true
                 });
 
                 AppUsers.Add("MichaelMoore", new AppUser
                 {
-                    UserName = "bdog422",
+                    UserName = "MichaelMoore",
                     Password = "Player42",
                     FirstName = "Michael",
                     LastName = "Moore",
                     EmailAddress = "michael.moore@trojans.dsu.edu",
-                    isAuthenticated = false
+                    isAuthenticated = true
                 });
 
-                AppUsers.Add("KyleGosh", new AppUser
+                AppUsers.Add("Kyle17", new AppUser
                 {
                     UserName = "Kyle17",
                     Password = "password",
                     FirstName = "Kyle",
                     LastName = "Gosh",
                     EmailAddress = "kyle.gosh@trojans.dsu.com",
-                    isAuthenticated = false
+                    isAuthenticated = true
                 });
 
                 AppUsers.Add("JohnnyCash", new AppUser
@@ -49,7 +49,7 @@ namespace P4Code
                     FirstName = "Johnny",
                     LastName = "Cash",
                     EmailAddress = "Cashster24x7@gmail.com",
-                    isAuthenticated = false
+                    isAuthenticated = true
                 });
                 //Add a couple more
             }
@@ -67,11 +67,12 @@ namespace P4Code
             }
             else
             {
-                if(NewUser.Password == Password)
+                if (NewUser.Password == Password)
                 {
                     return true;
-                }else if(NewUser.Password != Password)
-                {
+                } 
+                else if (NewUser.Password != Password)
+                { 
                     return false;
                 }
             }

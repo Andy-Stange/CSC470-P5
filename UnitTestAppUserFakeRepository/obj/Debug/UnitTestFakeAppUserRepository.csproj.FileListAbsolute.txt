@@ -66,3 +66,20 @@ C:\Users\DSU\Source\Repos\CSC470-P4\UnitTestAppUserFakeRepository\obj\Debug\Unit
 C:\Users\DSU\Source\Repos\CSC470-P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestFakeAppUserRepository.csproj.CopyComplete
 C:\Users\DSU\Source\Repos\CSC470-P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.dll
 C:\Users\DSU\Source\Repos\CSC470-P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.pdb
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\UnitTestAppUserFakeRepository.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\UnitTestAppUserFakeRepository.pdb
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\P3Code.exe
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\P3Code.pdb
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\P3Code.exe.config
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestFakeAppUserRepository.csprojAssemblyReference.cache
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestFakeAppUserRepository.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestFakeAppUserRepository.csproj.CopyComplete
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.dll
+C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P4\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.pdb
