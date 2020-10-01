@@ -24,7 +24,7 @@ namespace P4Code
 
                 AppUsers.Add("MichaelMoore", new AppUser
                 {
-                    UserName = "MichaelMoore",
+                    UserName = "bdog42",
                     Password = "Player42",
                     FirstName = "Michael",
                     LastName = "Moore",
@@ -32,7 +32,7 @@ namespace P4Code
                     isAuthenticated = true
                 });
 
-                AppUsers.Add("Kyle17", new AppUser
+                AppUsers.Add("KyleGosh", new AppUser
                 {
                     UserName = "Kyle17",
                     Password = "password",
@@ -100,9 +100,11 @@ namespace P4Code
         public AppUser GetbyUserName(string UserName)
         {
             AppUser NewUser = new AppUser();
+            AppUser temp = new AppUser();
             foreach (KeyValuePair<string, AppUser> user in AppUsers)
             {
-                if (user.Key == UserName)
+                temp = user.Value;
+                if (temp.UserName == UserName)
                 {
                     NewUser = user.Value;
                 }
