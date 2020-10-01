@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace P3Code.Properties
+namespace P4Code.Properties
 {
 
 

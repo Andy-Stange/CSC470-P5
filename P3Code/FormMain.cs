@@ -8,13 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace P3Code
+namespace P4Code
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
+            Application.Run(new FormLogin());
+        }
+
+
+
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

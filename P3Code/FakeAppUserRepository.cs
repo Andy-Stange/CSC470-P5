@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Collections.Generic;
 
-namespace P3Code
+namespace P4Code
 {
     public class FakeAppUserRepository : IAppUserRepository
     {
@@ -112,9 +108,6 @@ namespace P3Code
             }
             return NewUser;
         }
-        static void Main()
-        {
 
-        }
     }
 }

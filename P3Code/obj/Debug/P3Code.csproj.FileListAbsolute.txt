@@ -24,3 +24,14 @@ C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.csproj.GenerateR
 C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.csproj.CoreCompileInputs.cache
 C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.exe
 C:\Users\Michael\Source\Repos\CSC470-P3\P3Code\obj\Debug\P3Code.pdb
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\bin\Debug\P3Code.exe
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\bin\Debug\P3Code.pdb
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.csprojAssemblyReference.cache
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.csproj.GenerateResource.cache
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.csproj.CoreCompileInputs.cache
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.exe
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.pdb
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P3Code.FormMain.resources
+C:\Users\DSU\Source\Repos\CSC470-P4\P3Code\obj\Debug\P4Code.FormMain.resources
