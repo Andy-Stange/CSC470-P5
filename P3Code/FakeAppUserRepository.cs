@@ -34,8 +34,8 @@ namespace P4Code
 
                 AppUsers.Add("KyleGosh", new AppUser
                 {
-                    UserName = "Gosh017",
-                    Password = "12345678",
+                    UserName = "Kyle17",
+                    Password = "password",
                     FirstName = "Kyle",
                     LastName = "Gosh",
                     EmailAddress = "kyle.gosh@trojans.dsu.com",

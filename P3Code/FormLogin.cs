@@ -13,6 +13,7 @@ namespace P4Code
     public partial class FormLogin : Form
     {
         public AppUser user = new AppUser();
+        public bool UserSuccessfullyAuthenticated { get; private set; }
         public FormLogin()
         {
             InitializeComponent();
@@ -38,7 +39,8 @@ namespace P4Code
             {
                 repository.SetAuthenticated(Username, auth);
                 user = repository.GetbyUserName(Username);
-                this.Close();
+                UserSuccessfullyAuthenticated = true;
+                Close();
             }
             else
             {

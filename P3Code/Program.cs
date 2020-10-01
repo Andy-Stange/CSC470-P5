@@ -11,7 +11,17 @@ namespace P4Code
     {
         static void Main()
         {
-            Application.Run(new FormMain());
+         
+             FormLogin loginForm = new FormLogin();
+             Application.Run(loginForm);
+
+                if (loginForm.UserSuccessfullyAuthenticated)
+                {
+                    // MainForm is defined elsewhere
+                    Application.Run(new FormMain());
+                }
+            
+            
         }
     }
 }
