@@ -18,7 +18,7 @@ namespace P3Code
         {
             InitializeComponent();
         }
-        FakeProjectRepository pro = new FakeProjectRepository();
+        readonly FakeProjectRepository pro = new FakeProjectRepository();
         private void SelectProject_Load(object sender, EventArgs e)
         {
             List<Project> calledlist = pro.GetAll();

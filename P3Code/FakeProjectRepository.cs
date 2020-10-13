@@ -11,7 +11,7 @@ namespace P4Code
 {
     class FakeProjectRepository : IProjectRepository
     {
-        private static List<Project> projects = new List<Project>();
+        private static List<Project> projects = new System.Collections.Generic.List<Project>();
 
 
         public const string NO_ERROR = "No Error";
@@ -24,19 +24,34 @@ namespace P4Code
         {
             if (projects == null)
             {
+                projects.Add(new Project
+                {
+                    Name = "Cool Project",
+                    ID = 2
+                });
+                projects.Add(new Project
+                {
+                    Name = "Cool Project",
+                    ID = 2
+                });
+                projects.Add(new Project
+                {
+                    Name = "P5",
+                    ID = 3
+                });
 
-                projects.Add(new Project() { Name = "Random Project", ID = 1 });
-                projects.Add(new Project() { Name = "Cool Project", ID = 2 });
-                projects.Add(new Project() { Name = "P5", ID = 1 });
 
             }
         }
 
 
-        public void Add(string pro, int ID)
+        public void Add(string name, int ID)
         {
-            Project project = new Project();
-            projects.Add(new Project() { Name = pro, ID = ID });
+            projects.Add(new Project
+            {
+                Name = name,
+                ID = ID
+            });
         }
 
         public string Remove(int ProjectID)

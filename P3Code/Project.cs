@@ -10,13 +10,14 @@ namespace P4Code
     {
         public int ID
         {
-            get { return ID; }
-            set { ID = value; }
+            get;
+            set;
         }
+
         public string Name
         {
-            get { return Name; }
-            set { Name = value; }
+            get;
+            set;
         }
     }
 }

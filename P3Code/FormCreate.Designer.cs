@@ -37,47 +37,53 @@
             // CreateLabel
             // 
             this.CreateLabel.AutoSize = true;
-            this.CreateLabel.Location = new System.Drawing.Point(67, 61);
+            this.CreateLabel.Location = new System.Drawing.Point(100, 94);
+            this.CreateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CreateLabel.Name = "CreateLabel";
-            this.CreateLabel.Size = new System.Drawing.Size(74, 13);
+            this.CreateLabel.Size = new System.Drawing.Size(108, 20);
             this.CreateLabel.TabIndex = 0;
             this.CreateLabel.Text = "Project Name:";
             // 
             // CreateCancel
             // 
-            this.CreateCancel.Location = new System.Drawing.Point(169, 102);
+            this.CreateCancel.Location = new System.Drawing.Point(254, 157);
+            this.CreateCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CreateCancel.Name = "CreateCancel";
-            this.CreateCancel.Size = new System.Drawing.Size(75, 23);
+            this.CreateCancel.Size = new System.Drawing.Size(112, 35);
             this.CreateCancel.TabIndex = 1;
             this.CreateCancel.Text = "Cancel";
             this.CreateCancel.UseVisualStyleBackColor = true;
+            this.CreateCancel.Click += new System.EventHandler(this.CreateCancel_Click);
             // 
             // CreateAdd
             // 
-            this.CreateAdd.Location = new System.Drawing.Point(312, 102);
+            this.CreateAdd.Location = new System.Drawing.Point(468, 157);
+            this.CreateAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CreateAdd.Name = "CreateAdd";
-            this.CreateAdd.Size = new System.Drawing.Size(75, 23);
+            this.CreateAdd.Size = new System.Drawing.Size(112, 35);
             this.CreateAdd.TabIndex = 2;
             this.CreateAdd.Text = "Add";
             this.CreateAdd.UseVisualStyleBackColor = true;
+            this.CreateAdd.Click += new System.EventHandler(this.CreateAdd_Click);
             // 
             // CreateTextbox
             // 
-            this.CreateTextbox.Location = new System.Drawing.Point(155, 58);
+            this.CreateTextbox.Location = new System.Drawing.Point(232, 89);
+            this.CreateTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CreateTextbox.Name = "CreateTextbox";
-            this.CreateTextbox.Size = new System.Drawing.Size(232, 20);
+            this.CreateTextbox.Size = new System.Drawing.Size(346, 26);
             this.CreateTextbox.TabIndex = 3;
             // 
             // FormCreate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AcceptButton = this.CreateAdd;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 154);
+            this.ClientSize = new System.Drawing.Size(652, 237);
             this.Controls.Add(this.CreateTextbox);
             this.Controls.Add(this.CreateAdd);
             this.Controls.Add(this.CreateCancel);
             this.Controls.Add(this.CreateLabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormCreate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Project";
