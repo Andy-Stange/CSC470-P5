@@ -65,3 +65,18 @@ C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P5Main\P3Code\obj\Debu
 C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P5Main\P3Code\obj\Debug\P4Code.csproj.CoreCompileInputs.cache
 C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P5Main\P3Code\obj\Debug\P3Code.exe
 C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software Engineer\P5Main\P3Code\obj\Debug\P3Code.pdb
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\bin\Debug\P3Code.exe
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\bin\Debug\P3Code.pdb
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P4Code.csprojAssemblyReference.cache
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.FormCreate.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P4Code.FormLogin.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P4Code.FormMain.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.FormModify.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.FormRemove.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.FormSelect.resources
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P4Code.csproj.GenerateResource.cache
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P4Code.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.exe
+C:\Users\Michael\Source\Repos\CSC470-P5\P3Code\obj\Debug\P3Code.pdb

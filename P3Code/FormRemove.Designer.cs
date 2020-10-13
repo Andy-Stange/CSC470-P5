@@ -28,58 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ProjectRemovalLabel = new System.Windows.Forms.Label();
+            this.ProjectNameLabel = new System.Windows.Forms.Label();
             this.RemoveCancel = new System.Windows.Forms.Button();
-            this.RemoveButton = new System.Windows.Forms.Button();
+            this.RemoveOkay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // ProjectRemovalLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 64);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Project to remove:";
+            this.ProjectRemovalLabel.AutoSize = true;
+            this.ProjectRemovalLabel.Location = new System.Drawing.Point(84, 87);
+            this.ProjectRemovalLabel.Name = "ProjectRemovalLabel";
+            this.ProjectRemovalLabel.Size = new System.Drawing.Size(93, 13);
+            this.ProjectRemovalLabel.TabIndex = 0;
+            this.ProjectRemovalLabel.Text = "Project to remove:";
             // 
-            // label2
+            // ProjectNameLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(186, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "PlaceholderLabel";
+            this.ProjectNameLabel.AutoSize = true;
+            this.ProjectNameLabel.Location = new System.Drawing.Point(227, 87);
+            this.ProjectNameLabel.Name = "ProjectNameLabel";
+            this.ProjectNameLabel.Size = new System.Drawing.Size(99, 13);
+            this.ProjectNameLabel.TabIndex = 1;
+            this.ProjectNameLabel.Text = "Placeholder Project";
             // 
             // RemoveCancel
             // 
-            this.RemoveCancel.Location = new System.Drawing.Point(189, 130);
+            this.RemoveCancel.Location = new System.Drawing.Point(172, 160);
             this.RemoveCancel.Name = "RemoveCancel";
             this.RemoveCancel.Size = new System.Drawing.Size(75, 23);
             this.RemoveCancel.TabIndex = 2;
             this.RemoveCancel.Text = "Cancel";
             this.RemoveCancel.UseVisualStyleBackColor = true;
             // 
-            // RemoveButton
+            // RemoveOkay
             // 
-            this.RemoveButton.Location = new System.Drawing.Point(343, 130);
-            this.RemoveButton.Name = "RemoveButton";
-            this.RemoveButton.Size = new System.Drawing.Size(108, 23);
-            this.RemoveButton.TabIndex = 3;
-            this.RemoveButton.Text = "Remove Project";
-            this.RemoveButton.UseVisualStyleBackColor = true;
+            this.RemoveOkay.Location = new System.Drawing.Point(299, 160);
+            this.RemoveOkay.Name = "RemoveOkay";
+            this.RemoveOkay.Size = new System.Drawing.Size(110, 23);
+            this.RemoveOkay.TabIndex = 3;
+            this.RemoveOkay.Text = "Remove Project";
+            this.RemoveOkay.UseVisualStyleBackColor = true;
             // 
             // FormRemove
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 192);
-            this.Controls.Add(this.RemoveButton);
+            this.ClientSize = new System.Drawing.Size(529, 215);
+            this.Controls.Add(this.RemoveOkay);
             this.Controls.Add(this.RemoveCancel);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ProjectNameLabel);
+            this.Controls.Add(this.ProjectRemovalLabel);
             this.Name = "FormRemove";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Remove Project";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -88,9 +89,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label ProjectRemovalLabel;
+        private System.Windows.Forms.Label ProjectNameLabel;
         private System.Windows.Forms.Button RemoveCancel;
-        private System.Windows.Forms.Button RemoveButton;
+        private System.Windows.Forms.Button RemoveOkay;
     }
 }

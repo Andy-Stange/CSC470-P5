@@ -101,8 +101,26 @@ namespace P4Code
 
         private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var newselect = new FormCreate();
-            newselect.Show();
+            var newCreate = new FormCreate();
+            newCreate.Show();
+        }
+
+        private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newModify = new FormModify();
+            newModify.Show();
+        }
+
+        private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newRemove = new FormRemove();
+            newRemove.Show();
+        }
+
+        private void createProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            var newCreate = new FormCreate();
+            newCreate.Show();
         }
     }
 }
