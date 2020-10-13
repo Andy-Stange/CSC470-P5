@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P3Code;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,18 +12,14 @@ namespace P4Code
     {
         static void Main()
         {
-         
-             FormLogin loginForm = new FormLogin();
-             Application.Run(loginForm);
 
-                if (loginForm.UserSuccessfullyAuthenticated)
-                {
-                    // MainForm is defined elsewhere
-                    Application.Run(new FormMain());
-                }
-            
-            
-            
+
+
+            Application.Run(new FormMain());
+
+
+
+
         }
     }
 }

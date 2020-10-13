@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P3Code;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,13 +38,13 @@ namespace P4Code
             auth = repository.Login(Username, pass);
             if (auth)
             {
-                
+
                 repository.SetAuthenticated(Username, auth);
                 user = repository.GetbyUserName(Username);
-                UserSuccessfullyAuthenticated = true;
+
                 Close();
-               
-                
+
+
             }
             else
             {

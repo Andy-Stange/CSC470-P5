@@ -37,8 +37,8 @@ namespace P3Code
             {
                 MessageBox.Show("Project Name empty or blank");
             }
-            
-            if(pro.isDublicate(CreateTextbox.Text) == true)
+
+            if (pro.isDublicate(CreateTextbox.Text) == true)
             {
                 MessageBox.Show("Project Name is a duplicate");
                 value = 1;
@@ -48,21 +48,22 @@ namespace P3Code
             {
                 value = 0;
             }
-            if(value == 0)
+            if (value == 0)
             {
                 int max = 0;
                 int newid = 0;
                 foreach (Project item in calledlist)
                 {
-                    
+
                     if (item.ID > max)
                         max = item.ID;
                 }
                 newid = max + 1;
-                pro.Add(CreateTextbox.Text, newid);
+                Project newpro = new Project { Name = CreateTextbox.Text };
+                pro.Add(newpro, newid);
                 this.Close();
             }
-            
+
         }
     }
 }

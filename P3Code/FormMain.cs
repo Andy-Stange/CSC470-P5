@@ -24,9 +24,44 @@ namespace P4Code
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            this.Hide();
+            FormLogin formlog = new FormLogin();
+            formlog.ShowDialog();
+            FormSelect sel = new FormSelect();
+            sel.ShowDialog();
 
         }
 
+        private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSelect select = new FormSelect();
+            select.ShowDialog();
+
+        }
+
+        private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newCreate = new FormCreate();
+            newCreate.Show();
+        }
+
+        private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newModify = new FormModify();
+            newModify.Show();
+        }
+
+        private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newRemove = new FormRemove();
+            newRemove.Show();
+        }
+
+        private void createProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            var newCreate = new FormCreate();
+            newCreate.Show();
+        }
         private void countByAssigneeToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -92,36 +127,6 @@ namespace P4Code
 
         }
 
-        private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var newselect = new FormSelect();
-            newselect.Show();
 
-        }
-
-        private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var newCreate = new FormCreate();
-            newCreate.Show();
-        }
-
-        private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var newModify = new FormModify();
-            newModify.Show();
-        }
-
-        private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var newRemove = new FormRemove();
-            newRemove.Show();
-            
-        }
-
-        private void createProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            var newCreate = new FormCreate();
-            newCreate.Show();
-        }
     }
 }

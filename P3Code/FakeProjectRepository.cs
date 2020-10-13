@@ -22,12 +22,12 @@ namespace P4Code
 
         public FakeProjectRepository()
         {
-            if (projects == null)
+            if (projects.Count < 1)
             {
                 projects.Add(new Project
                 {
-                    Name = "Cool Project",
-                    ID = 2
+                    Name = "Random Project",
+                    ID = 1
                 });
                 projects.Add(new Project
                 {
@@ -45,8 +45,9 @@ namespace P4Code
         }
 
 
-        public void Add(string name, int ID)
+        public void Add(Project proj, int ID)
         {
+            string name = proj.Name;
             projects.Add(new Project
             {
                 Name = name,
