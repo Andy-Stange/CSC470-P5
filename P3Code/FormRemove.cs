@@ -16,5 +16,18 @@ namespace P3Code
         {
             InitializeComponent();
         }
+
+        private void FormRemove_Load(object sender, EventArgs e)
+        {
+            var removeSelect = new FormSelect();
+            removeSelect.TopMost = true;
+            removeSelect.Show();
+            
+        }
+
+        private void RemoveCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

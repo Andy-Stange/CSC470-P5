@@ -115,6 +115,7 @@ namespace P4Code
         {
             var newRemove = new FormRemove();
             newRemove.Show();
+            
         }
 
         private void createProjectToolStripMenuItem_Click_1(object sender, EventArgs e)

@@ -60,6 +60,7 @@
             this.RemoveCancel.TabIndex = 2;
             this.RemoveCancel.Text = "Cancel";
             this.RemoveCancel.UseVisualStyleBackColor = true;
+            this.RemoveCancel.Click += new System.EventHandler(this.RemoveCancel_Click);
             // 
             // RemoveOkay
             // 
@@ -82,6 +83,7 @@
             this.Name = "FormRemove";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Remove Project";
+            this.Load += new System.EventHandler(this.FormRemove_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

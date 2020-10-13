@@ -31,5 +31,10 @@ namespace P3Code
         {
 
         }
+
+        private void Cancel_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
