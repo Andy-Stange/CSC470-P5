@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P3Code;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -93,6 +94,8 @@ namespace P4Code
 
         private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            var newselect = new FormSelect();
+            newselect.Show();
 
         }
     }

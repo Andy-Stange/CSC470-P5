@@ -40,7 +40,7 @@ namespace P4Code
         }
 
 
-        string Add(Project project, int ID)
+        public string Add(Project project, int ID)
         {
             string Name = null;
 
@@ -48,7 +48,7 @@ namespace P4Code
             return Name;
         }
 
-        string Remove(int ProjectID)
+        public string Remove(int ProjectID)
         {
             string ProjName = null;
             foreach(Project proj in projects)
@@ -62,7 +62,7 @@ namespace P4Code
             return ProjName;
         }
 
-        string Modify(int ProjectID, Project project)
+        public string Modify(int ProjectID, Project project)
         {
             string Name = null;
             project.ID = ProjectID;
@@ -70,18 +70,18 @@ namespace P4Code
             return Name;
         }
 
-        List<Project> GetAll()
+        public List<Project> GetAll()
         {
             return projects;
         }
 
-        bool IsDuplicateName(string projectName)
+        public bool isDublicate(string projectName)
         {
             foreach(Project proj in projects)
             {
                 if (projectName == proj.Name)
                 {
-                    return true;
+                    
                 }
             }
             return false;

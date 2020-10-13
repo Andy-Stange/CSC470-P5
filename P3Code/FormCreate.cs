@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace P3Code
 {
-    public partial class SelectProject : Form
+    public partial class FormCreate : Form
     {
-        public SelectProject()
+        public FormCreate()
         {
             InitializeComponent();
         }
