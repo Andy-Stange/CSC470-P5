@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace P4Code 
-{ 
+namespace P4Code
+{
     public interface IProjectRepository
     {
-        string Add(Project project, int out_id);
+        void Add(string project, int out_id);
         string Remove(int ProjectID);
         string Modify(int ProjectID, Project project);
         List<Project> GetAll();

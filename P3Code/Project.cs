@@ -8,7 +8,15 @@ namespace P4Code
 {
     public class Project
     {
-        public int ID;
-        public string Name;
+        public int ID
+        {
+            get { return ID; }
+            set { ID = value; }
+        }
+        public string Name
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
     }
 }

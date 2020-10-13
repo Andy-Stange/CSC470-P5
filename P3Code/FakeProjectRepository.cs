@@ -11,7 +11,7 @@ namespace P4Code
 {
     class FakeProjectRepository : IProjectRepository
     {
-        private static List<Project> projects;
+        private static List<Project> projects = new List<Project>();
 
 
         public const string NO_ERROR = "No Error";
@@ -22,38 +22,29 @@ namespace P4Code
 
         public FakeProjectRepository()
         {
-            if(projects == null)
+            if (projects == null)
             {
-                Project project = new Project();
-                project.ID = 1;
-                project.Name = "Random Project";
-                projects.Add(project);
 
-                project.ID = 2;
-                project.Name = "Better Project";
-                projects.Add(project);
+                projects.Add(new Project() { Name = "Random Project", ID = 1 });
+                projects.Add(new Project() { Name = "Cool Project", ID = 2 });
+                projects.Add(new Project() { Name = "P5", ID = 1 });
 
-                project.ID = 111;
-                project.Name = "P5";
-                projects.Add(project);
             }
         }
 
 
-        public string Add(Project project, int ID)
+        public void Add(string pro, int ID)
         {
-            string Name = null;
-
-
-            return Name;
+            Project project = new Project();
+            projects.Add(new Project() { Name = pro, ID = ID });
         }
 
         public string Remove(int ProjectID)
         {
             string ProjName = null;
-            foreach(Project proj in projects)
+            foreach (Project proj in projects)
             {
-                if(ProjectID == proj.ID)
+                if (ProjectID == proj.ID)
                 {
                     ProjName = proj.Name;
                     projects.Remove(proj);
@@ -77,15 +68,16 @@ namespace P4Code
 
         public bool isDublicate(string projectName)
         {
-            foreach(Project proj in projects)
+            foreach (Project proj in projects)
             {
                 if (projectName == proj.Name)
                 {
-                    
+                    return true;
                 }
             }
             return false;
         }
+
 
     }
 }

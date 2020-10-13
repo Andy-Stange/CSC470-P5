@@ -16,7 +16,7 @@ namespace P4Code
         public FormMain()
         {
             InitializeComponent();
-           
+
         }
 
 
@@ -97,6 +97,12 @@ namespace P4Code
             var newselect = new FormSelect();
             newselect.Show();
 
+        }
+
+        private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newselect = new FormCreate();
+            newselect.Show();
         }
     }
 }
