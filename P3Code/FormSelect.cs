@@ -13,6 +13,15 @@ namespace P3Code
 {
     public partial class FormSelect : Form
     {
+        public FakeProjectRepository repoToEdit = new FakeProjectRepository();
+
+        public Project SelectedProject;
+        public List<Project> projects = new List<Project>();
+        public bool isSelected = false;
+        public string selectedName { get; set; }
+        public int ID { get; set; }   
+
+
 
         public FormSelect()
         {
@@ -21,10 +30,10 @@ namespace P3Code
         readonly FakeProjectRepository pro = new FakeProjectRepository();
         private void SelectProject_Load(object sender, EventArgs e)
         {
-            List<Project> calledlist = pro.GetAll();
-            foreach (Project item in calledlist)
-                ProjectListBox.Items.Add(item.Name);
-
+            projects = repoToEdit.GetAll();
+            foreach (Project project in projects)
+                ProjectListBox.Items.Add(project.Name);
+            ProjectListBox.SelectedIndex = 0;
         }
 
         private void ProjectListBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -34,6 +43,15 @@ namespace P3Code
 
         private void Cancel_btn_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void SelectProj_btn_Click(object sender, EventArgs e)
+        {
+            SelectedProject = projects[ProjectListBox.SelectedIndex];
+            selectedName = SelectedProject.Name;
+            ID = SelectedProject.ID;
+            isSelected = true;
             this.Close();
         }
     }

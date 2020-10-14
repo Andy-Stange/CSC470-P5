@@ -48,9 +48,8 @@
             this.ProjectNameLabel.AutoSize = true;
             this.ProjectNameLabel.Location = new System.Drawing.Point(227, 87);
             this.ProjectNameLabel.Name = "ProjectNameLabel";
-            this.ProjectNameLabel.Size = new System.Drawing.Size(99, 13);
+            this.ProjectNameLabel.Size = new System.Drawing.Size(0, 13);
             this.ProjectNameLabel.TabIndex = 1;
-            this.ProjectNameLabel.Text = "Placeholder Project";
             // 
             // RemoveCancel
             // 
@@ -70,6 +69,7 @@
             this.RemoveOkay.TabIndex = 3;
             this.RemoveOkay.Text = "Remove Project";
             this.RemoveOkay.UseVisualStyleBackColor = true;
+            this.RemoveOkay.Click += new System.EventHandler(this.RemoveOkay_Click);
             // 
             // FormRemove
             // 

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace P4Code
 {
-    class FakeProjectRepository : IProjectRepository
+    public class FakeProjectRepository : IProjectRepository
     {
         private static List<Project> projects = new System.Collections.Generic.List<Project>();
 

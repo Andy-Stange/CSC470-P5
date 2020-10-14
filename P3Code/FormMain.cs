@@ -18,7 +18,9 @@ namespace P4Code
             InitializeComponent();
 
         }
-
+        private string selectedProjectDelete;
+        private int selectedProjectIDDelete;
+        private string selectedProject;
 
 
 
@@ -37,6 +39,12 @@ namespace P4Code
             FormSelect select = new FormSelect();
             select.ShowDialog();
 
+            if(select.isSelected == true)
+            {
+                selectedProject = select.selectedName;
+                setText();
+            }
+
         }
 
         private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,8 +61,19 @@ namespace P4Code
 
         private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var newRemove = new FormRemove();
-            newRemove.Show();
+            var newSelect = new FormSelect();
+            newSelect.Show();
+            if(newSelect.isSelected == true)
+            {
+                selectedProjectDelete = newSelect.selectedName;
+                selectedProjectIDDelete = newSelect.ID;
+            }
+            if(selectedProjectDelete != selectedProject)
+            {
+                var newRemove = new FormRemove();
+                newRemove.projectText = selectedProjectDelete;
+
+            }
         }
 
         private void createProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -125,6 +144,11 @@ namespace P4Code
         private void PreferencesBox_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void setText()
+        {
+            this.Text = "Main - " + selectedProject;
         }
 
 

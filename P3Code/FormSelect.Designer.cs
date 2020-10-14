@@ -53,6 +53,7 @@
             this.SelectProj_btn.TabIndex = 2;
             this.SelectProj_btn.Text = "Select Project";
             this.SelectProj_btn.UseVisualStyleBackColor = true;
+            this.SelectProj_btn.Click += new System.EventHandler(this.SelectProj_btn_Click);
             // 
             // ProjectListBox
             // 

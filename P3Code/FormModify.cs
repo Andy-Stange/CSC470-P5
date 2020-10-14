@@ -16,5 +16,10 @@ namespace P3Code
         {
             InitializeComponent();
         }
+
+        private void FormModify_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
