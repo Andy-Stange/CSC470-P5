@@ -51,6 +51,17 @@ namespace P4Code
                     EmailAddress = "Cashster24x7@gmail.com",
                     isAuthenticated = true
                 });
+
+                AppUsers.Add("QuickUser", new AppUser
+                {
+                    UserName = "fj",
+                    Password = "fj",
+                    FirstName = "Johnny",
+                    LastName = "Cash",
+                    EmailAddress = "Cashster24x7@gmail.com",
+                    isAuthenticated = true
+                });
+                //Add a couple mor
                 //Add a couple more
             }
         }

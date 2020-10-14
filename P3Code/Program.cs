@@ -15,7 +15,7 @@ namespace P4Code
 
 
 
-            Application.Run(new FormMain());
+            Application.Run(new FormLogin());
 
 
 

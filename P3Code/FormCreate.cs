@@ -50,16 +50,8 @@ namespace P3Code
             }
             if (value == 0)
             {
-                int max = 0;
-                int newid = 0;
-                foreach (Project item in calledlist)
-                {
-
-                    if (item.ID > max)
-                        max = item.ID;
-                }
-                newid = max + 1;
                 Project newpro = new Project { Name = CreateTextbox.Text };
+                int newid = 0;
                 pro.Add(newpro, newid);
                 this.Close();
             }

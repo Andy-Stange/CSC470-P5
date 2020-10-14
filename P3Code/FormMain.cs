@@ -24,17 +24,19 @@ namespace P4Code
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            FormLogin formlog = new FormLogin();
-            formlog.ShowDialog();
-            FormSelect sel = new FormSelect();
-            sel.ShowDialog();
+//            this.Hide();
+//            FormLogin formlog = new FormLogin();
+//            formlog.ShowDialog();
+ //           FormSelect sel = new FormSelect();
+ //           sel.ShowDialog();
 
         }
 
         private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FormSelect select = new FormSelect();
+            select.Closed += (s, args) => this.Close();
             select.ShowDialog();
 
         }

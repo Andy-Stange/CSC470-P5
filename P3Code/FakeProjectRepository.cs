@@ -14,7 +14,7 @@ namespace P4Code
         private static List<Project> projects = new System.Collections.Generic.List<Project>();
 
 
-        public const string NO_ERROR = "No Error";
+        public const string NO_ERROR = "";
         public const string MODIFIED_PROJECT_ID_ERROR = "Can not modify the project ID";
         public const string DUPLICATE_PROJECT_NAME_ERROR = "Project Name Already Exists";
         public const string NO_PROJECT_FOUND_ERROR = "No Project Found!";
@@ -45,13 +45,14 @@ namespace P4Code
         }
 
 
-        public void Add(Project proj, int ID)
+        public void Add(Project proj, int id)
         {
             string name = proj.Name;
+            id = GetNextID();
             projects.Add(new Project
             {
                 Name = name,
-                ID = ID
+                ID = id
             });
         }
 
@@ -92,6 +93,22 @@ namespace P4Code
                 }
             }
             return false;
+        }
+
+        public int GetNextID()
+        {
+            int max = 0;
+            int newID = 0;
+            foreach(Project item in projects)
+            {
+                if(item.ID > max)
+                {
+                    max = item.ID;
+
+                }
+            }
+            newID = max + 1;
+            return newID;
         }
 
 

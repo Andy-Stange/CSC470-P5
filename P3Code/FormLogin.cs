@@ -41,8 +41,10 @@ namespace P4Code
 
                 repository.SetAuthenticated(Username, auth);
                 user = repository.GetbyUserName(Username);
-
-                Close();
+                this.Hide();
+                FormSelect fosel = new FormSelect();
+                fosel.Closed += (s, args) => this.Close();
+                fosel.ShowDialog();
 
 
             }

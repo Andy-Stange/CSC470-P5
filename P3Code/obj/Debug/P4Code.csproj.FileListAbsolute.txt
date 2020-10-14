@@ -97,3 +97,10 @@ C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software EngineerP5REAL\P3Code\obj\Debug
 C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software EngineerP5REAL\P3Code\obj\Debug\P4Code.csproj.CoreCompileInputs.cache
 C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software EngineerP5REAL\P3Code\obj\Debug\P3Code.exe
 C:\Users\Kyle\Desktop\Fall 2020\CSC 470 Software EngineerP5REAL\P3Code\obj\Debug\P3Code.pdb
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\bin\Debug\P3Code.exe
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\bin\Debug\P3Code.pdb
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\obj\Debug\P3Code.FormCreate.resources
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\obj\Debug\P3Code.FormModify.resources
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\obj\Debug\P3Code.FormRemove.resources
+C:\Users\sleeveless11\Desktop\CSC470\P5 Code\P3Code\obj\Debug\P3Code.FormSelect.resources

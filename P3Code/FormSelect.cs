@@ -23,7 +23,7 @@ namespace P3Code
         {
             List<Project> calledlist = pro.GetAll();
             foreach (Project item in calledlist)
-                ProjectListBox.Items.Add(item.Name);
+                ProjectListBox.Items.Add(item.ID + "-" + item.Name);
 
         }
 
@@ -35,6 +35,14 @@ namespace P3Code
         private void Cancel_btn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void SelectProj_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMain newpro = new FormMain { Text ="Main - " + ProjectListBox.SelectedItem.ToString() };
+            newpro.Closed += (s, args) => this.Close();
+            newpro.ShowDialog();
         }
     }
 }
